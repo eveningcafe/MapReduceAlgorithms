@@ -1,18 +1,18 @@
 # MapReduceAlgorithms
 
 # Hướng dẫn build file java
-project sử dụng maven cho quản lý thư vieenh:
--sửa file pom.xml:
-<configuration>  
-					<archive>  
-						<manifest>  
-							<mainClass>path.to.MainClass</mainClass>  
-						</manifest>  
-					</archive>  
-					<descriptorRefs>  
-						<descriptorRef>jar-with-dependencies</descriptorRef>  
-					</descriptorRefs>  
-</configuration>    
+project sử dụng maven cho quản lý thư viện:  
+-sửa file pom.xml:  
+&lt;configuration&gt;  
+	&lt;archive&gt;  
+		&lt;manifest&gt;  
+			&lt;mainClass&lt;path.to.MainClass&lt;/mainClass&gt;  
+		&lt;/manifest&gt;  
+	&lt;/archive&gt;  
+	&lt;descriptorRefs&gt;  
+		&lt;descriptorRef>jar-with-dependencies&lt;/descriptorRef&gt;  
+	&lt;/descriptorRefs&gt;  
+&lt;/configuration&gt;    
 sửa "path.to.MainClass" thành đường dẫn tới thuật toán muốn build.    
 ví dụ với thuật toán common friend "path.to.MainClass" -> "CommonFriends.CommonFriendsDriver"  
 -chạy lệnh build  $mvn clean compile assembly:single
