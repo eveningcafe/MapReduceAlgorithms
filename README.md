@@ -13,7 +13,7 @@ project sử dụng maven cho quản lý thư viện:
 		&lt;descriptorRef>jar-with-dependencies&lt;/descriptorRef&gt;  
 	&lt;/descriptorRefs&gt;  
 &lt;/configuration&gt;    
-sửa "path.to.MainClass" thành đường dẫn tới thuật toán muốn build.    
+Với: "path.to.MainClass" thay thành đường dẫn tới hàm main của class định nghĩa thuật toán muốn build.    
 ví dụ với thuật toán common friend "path.to.MainClass" -> "CommonFriends.CommonFriendsDriver"  
 -chạy lệnh build  $mvn clean compile assembly:single
 # Hướng dẫn chạy với hadoop:
